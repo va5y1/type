@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "gulp": "*",
+        "browser-sync": "*",
+        "gulp-autoprefixer": "*",
+        "gulp-notify": "*",
+        "gulp-sass": "*"
+    }
+}

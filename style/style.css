@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Releway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Raleway regular.ttf") format("ttf"); }
+
+@font-face {
+  font-family: "Releway";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Raleway 700.ttf") format("ttf"); }
+
+@font-face {
+  font-family: "Releway";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Raleway 500.ttf") format("ttf"); }
+
+body {
+  font-size: 16px;
+  line-height: 1.65;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+  color: black;
+  margin: 0;
+  padding: 0; }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.grid {
+  display: grid; }
+
+.header {
+  height: 95px;
+  background-color: #303030;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.logo {
+  margin-left: 270px; }
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 40px; }
+  ul li:last-child {
+    padding-right: 120px; }
+  ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 40px; }
+    ul li a:hover {
+      border-bottom: 5px solid #7b6c63; }
+
+.main-header {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 675px;
+  width: 100%;
+  background-image: url(/img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  position: relative;
+  color: white; }
+  .main-header::before {
+    content: '';
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: .50;
+    position: absolute; }
+  .main-header h1 {
+    z-index: 1;
+    text-transform: uppercase;
+    line-height: 75px;
+    font-size: 65px;
+    font-weight: 400;
+    letter-spacing: 1.65px;
+    margin-top: 0;
+    margin-bottom: 68px; }
+    .main-header h1 span {
+      color: #89786e; }
+  .main-header h4 {
+    text-transform: uppercase;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 0; }
+
+.button {
+  z-index: 1;
+  height: 40px;
+  width: 300px;
+  position: relative; }
+  .button a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 20px 55px;
+    background-color: #25221e;
+    color: white;
+    position: absolute;
+    -webkit-box-shadow: 4px 4px 8px black;
+            box-shadow: 4px 4px 8px black; }
+    .button a:active {
+      -webkit-transform: translate(5px, 5px);
+              transform: translate(5px, 5px);
+      -webkit-box-shadow: none;
+              box-shadow: none; }
+
+.fa-download {
+  margin-left: 5px; }
