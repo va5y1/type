@@ -520,3 +520,127 @@ ul {
 		}
 	}
 }
+.blog {
+	.blog-content {
+		padding:0 444px;
+		flex-flow: row nowrap;
+		justify-content: center;
+	}
+	.blog-content-column {
+		flex-flow: column nowrap;
+		text-align: right;
+		time {
+			color: #7b6c63;
+			font-size: 16px;
+			font-weight: 500;
+		}
+		p {
+			color: #7b6c63;
+			font-size: 16px;
+			font-weight: 400;
+			margin-bottom: 170px;
+		}
+		h3 {
+			color: #212121;
+			font-size: 24px;
+			letter-spacing: 1.2px;
+		}
+		&:last-child {
+			text-align: left;
+		}
+	}
+	.blog-content-line {
+		height: max-content;
+		width: max-content;
+	}
+}
+.contact {
+	h2 {
+		margin: 80px auto;
+		text-align: center;
+		color: #7b6c63;
+		letter-spacing: 2px;
+		font-size: 40px;
+	}
+	.grid {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-column-gap: 30px;
+		justify-content: center;
+		align-items: center;
+		input[type="text"] {
+			grid-column: 2/3;
+			border: none;
+			border-top: 2px solid black;
+			padding-bottom: 25px;
+		}
+		input[type="email"] {
+			grid-column: 3/4;
+			border: none;
+			border-top: 2px solid black;
+			padding-bottom: 25px;
+		}
+		textarea {
+			grid-column: 2/4;
+			resize: none;
+			border: none;
+			border-bottom: 1px solid black;
+			border-top: 2px solid black;
+		}
+		button {
+			grid-column:2/4;
+			margin: 30px 360px 80px 360px;
+			padding: 15px;
+			color: #000;
+			font-weight: bold;
+			font-size: 28px;
+			border: 2px solid #000;
+			background-color: #fff;
+		}
+	}
+}
+footer {
+	.main-footer {
+		flex-flow: row nowrap;
+		justify-content: space-evenly;
+		background-color: #000;
+		padding-bottom: 50px;
+		padding-top: 20px;
+		.text {
+			width: 15%;
+			img{
+				margin-top: 30px;
+				position: relative;
+			}
+			h5 {
+				color: #c2c2c2;
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 24.98px;
+				text-transform: uppercase;
+			}
+			p {
+				font-size: 14px;
+				color: #929292;
+			}
+			time {
+				color: #5f5f5f;
+				font-size: 10px;
+			}
+			hr {
+				background-color: #595959;
+				border: 1px solid #595959;;
+			}
+		}
+	}
+	.copyright {
+		background-color: #000;
+		height: 58px;
+		color: #595959;
+		text-align: center;
+		border-top: 1px solid #595959;
+		padding: 30px auto 15px;
+		p {
+			box-sizing: border-box;
+		}
+	}	
+}
