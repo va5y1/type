@@ -56,7 +56,6 @@ ul {
 	justify-content: center;
 	align-items: flex-start;
 	height: 675px;
-	width: 100%;
 	background-image: url(/img/bg.jpg);
 	background-position: center;
 	background-size: cover;
@@ -145,16 +144,16 @@ ul {
 	}
 }
 .about-content-text {
-	padding-left: 365px;
-	width: 50%;
+	padding-left: 65px;
 	padding-bottom: 20px;
+	width: 50%;
+
 }
 .skew-img {
 	width: 50%;
-	height: 100%;
 	img {
-	object-fit: fill;
-	height: 100%;}
+		width: 100%;
+	}
 }
 .about-content {
 	//overflow: hidden;
@@ -391,7 +390,7 @@ ul {
 		background-color: #1a1a1a;
 		a {
 			text-decoration: none;
-			color: green;
+			color: #29c5f2;
 
 		}
 		h3 {
@@ -567,6 +566,8 @@ ul {
 		grid-column-gap: 30px;
 		justify-content: center;
 		align-items: center;
+		:focus{
+			outline: none;}
 		input[type="text"] {
 			grid-column: 2/3;
 			border: none;

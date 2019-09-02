@@ -80,7 +80,6 @@ ul li {
       -ms-flex-align: start;
           align-items: flex-start;
   height: 675px;
-  width: 100%;
   background-image: url(/img/bg.jpg);
   background-position: center;
   background-size: cover;
@@ -168,17 +167,14 @@ ul li {
     margin-bottom: 63px; }
 
 .about-content-text {
-  padding-left: 365px;
-  width: 50%;
-  padding-bottom: 20px; }
+  padding-left: 65px;
+  padding-bottom: 20px;
+  width: 50%; }
 
 .skew-img {
-  width: 50%;
-  height: 100%; }
+  width: 50%; }
   .skew-img img {
-    -o-object-fit: fill;
-       object-fit: fill;
-    height: 100%; }
+    width: 100%; }
 
 .about-content {
   -webkit-box-orient: horizontal;
@@ -415,7 +411,7 @@ ul li {
     background-color: #1a1a1a; }
     .project .project-black a {
       text-decoration: none;
-      color: green; }
+      color: #29c5f2; }
     .project .project-black h3 {
       margin-top: 60px;
       font-size: 24px;
@@ -578,6 +574,8 @@ ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  .contact .grid :focus {
+    outline: none; }
   .contact .grid input[type="text"] {
     grid-column: 2/3;
     border: none;
