@@ -1,0 +1,179 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+	body .contact .grid button {
+		margin: 40px 100px;
+	}
+	div.logo {
+		margin-left: 170px;
+	}
+	body ul li:last-child {
+		padding-right: 30px;
+	}
+	body .main-header {
+		padding-left: 200px;
+		h1 {
+			font-size: 3.3em;
+		}
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	body .contact .grid button {
+		margin: 40px 100px;
+	}
+	div.logo {
+		margin-left: 80px;
+	}
+	body ul li:last-child {
+		padding-right: 20px;
+	}
+	body ul li {
+		padding-right: 15px;
+	}
+	body .main-header {
+		padding-left: 200px;
+		h1 {
+			font-size: 2.8em;
+		}
+	}
+	body .project .project-foto .project-foto-item {
+		.img {
+			height: 330px;
+		}
+		.text h4 {
+			margin-top: 5px
+		}
+		.img,.text {
+			width: 230px;
+		}
+		margin: 9px;
+	}
+	body .gallery .gallery-item .itemall {
+		height: 100%;
+	}
+	body .skills .col .disc .disc-item {
+		background-size: contain;
+		padding: 50px;
+	}
+	body footer .main-footer {
+		padding-bottom: 0;
+		.text {
+			width: 23%;
+		}
+	}
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+	body .contact .grid button {
+		margin: 40px 100px;
+	}
+	div.logo {
+		margin-left: 80px;
+	}
+	body ul li:last-child {
+		padding-right: 20px;
+	}
+	body ul li {
+		padding-right: 15px;
+	}
+	body .main-header {
+		padding-left: 100px;
+		h1 {
+			font-size: 1.7em;
+		}
+	}
+	body .project .project-foto .project-foto-item {
+		.img {
+			height: 200px;
+		}
+		.text h4 {
+			margin-top: 5px;
+			font-size: 18px;
+			margin-bottom: 5px;
+		}
+		.text p{
+			font-size: 12px;
+		}
+		.img,.text {
+			width: 130px;
+		}
+		margin: 9px;
+	}
+	body .gallery .gallery-item .itemall {
+		height: 100%;
+	}
+	body .skills .col .disc .disc-item {
+		background-size: contain;
+		padding: 35px;
+	}
+	body footer .main-footer {
+		padding-bottom: 0;
+		.text {
+			width: 22%;
+		}
+	}
+	body .contact h2 {
+		margin: 0;
+	}
+	body footer .main-footer .text img {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 480px) { 
+	body .contact .grid button {
+		margin: 40px 100px;
+	}
+	div.logo {
+		margin-left: 10px;
+	}
+	body ul li:last-child {
+		padding-right: 20px;
+	}
+	body ul li {
+		padding-right: 15px;
+	}
+	body .main-header {
+		padding-left: 10px;
+		h1 {
+			font-size: 1em;
+		}
+	}
+	body .project .project-foto .project-foto-item {
+		.img {
+			height: 200px;
+		}
+		.text h4 {
+			margin-top: 5px;
+			font-size: 18px;
+			margin-bottom: 5px;
+		}
+		.text p{
+			font-size: 12px;
+		}
+		.img,.text {
+			width: 130px;
+		}
+		margin: 9px;
+	}
+	body .gallery .gallery-item .itemall {
+		height: 100%;
+	}
+	body .skills .col .disc .disc-item {
+		background-size: contain;
+		padding: 35px;
+	}
+	body footer .main-footer {
+		padding-bottom: 0;
+		.text {
+			width: 22%;
+		}
+	}
+	body .contact h2 {
+		margin: 0;
+	}
+	body footer .main-footer .text img {
+		width: 100%;
+	}
+}
+
+
