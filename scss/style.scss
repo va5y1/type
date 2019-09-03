@@ -57,7 +57,7 @@ ul {
 	justify-content: center;
 	align-items: flex-start;
 	height: 675px;
-	background-image: url(/img/bg.jpg);
+	background-image: url(../img/bg.jpg);
 	background-position: center;
 	background-size: cover;
 	background-color: black;
@@ -237,7 +237,7 @@ ul {
 	font-size: 30px;
 }
 .skills {
-		background: black url(/img/skills.jpg) center no-repeat;
+		background: black url(../img/skills.jpg) center no-repeat;
 		background-size: cover;
 		color: white;
 		flex-direction: column;
@@ -261,7 +261,7 @@ ul {
 		.disc {
 			text-align: center;
 			.disc-item {
-				background-image: url(/img/1.png);
+				background-image: url(../img/1.png);
 				background-position: center;
 				background-size: auto;
 				background-repeat: no-repeat;
@@ -330,16 +330,16 @@ ul {
 			}
 		}
 		.item1 {
-			background: #000 url(/img/1g.jpg) no-repeat;
+			background: #000 url(../img/1g.jpg) no-repeat;
 		}
 		.item2 {
-			background: #000 url(/img/2g.jpg) no-repeat;
+			background: #000 url(../img/2g.jpg) no-repeat;
 		}
 		.item3 {
-			background: #000 url(/img/3g.jpg) no-repeat;
+			background: #000 url(../img/3g.jpg) no-repeat;
 		}
 		.item4 {
-			background: #000 url(/img/4g.jpg) no-repeat;
+			background: #000 url(../img/4g.jpg) no-repeat;
 		}
 
 	}
@@ -467,7 +467,7 @@ ul {
 				width: 270px;
 				height: 370px;
 				position: relative; 
-				background: #000 url(/img/man.png) no-repeat center;
+				background: #000 url(../img/man.png) no-repeat center;
 				background-size: cover;
 				
 				justify-content: center;

@@ -201,7 +201,7 @@ ul li {
       -ms-flex-align: start;
           align-items: flex-start;
   height: 675px;
-  background-image: url(/img/bg.jpg);
+  background-image: url(../img/bg.jpg);
   background-position: center;
   background-size: cover;
   background-color: black;
@@ -380,7 +380,7 @@ ul li {
   font-size: 30px; }
 
 .skills {
-  background: black url(/img/skills.jpg) center no-repeat;
+  background: black url(../img/skills.jpg) center no-repeat;
   background-size: cover;
   color: white;
   -webkit-box-orient: vertical;
@@ -411,7 +411,7 @@ ul li {
     .skills .col .disc {
       text-align: center; }
       .skills .col .disc .disc-item {
-        background-image: url(/img/1.png);
+        background-image: url(../img/1.png);
         background-position: center;
         background-size: auto;
         background-repeat: no-repeat;
@@ -468,13 +468,13 @@ ul li {
       -webkit-transition: background-color 1s ease;
       transition: background-color 1s ease; }
   .gallery .gallery-item .item1 {
-    background: #000 url(/img/1g.jpg) no-repeat; }
+    background: #000 url(../img/1g.jpg) no-repeat; }
   .gallery .gallery-item .item2 {
-    background: #000 url(/img/2g.jpg) no-repeat; }
+    background: #000 url(../img/2g.jpg) no-repeat; }
   .gallery .gallery-item .item3 {
-    background: #000 url(/img/3g.jpg) no-repeat; }
+    background: #000 url(../img/3g.jpg) no-repeat; }
   .gallery .gallery-item .item4 {
-    background: #000 url(/img/4g.jpg) no-repeat; }
+    background: #000 url(../img/4g.jpg) no-repeat; }
 
 .gallery .gallery-text {
   height: 396px;
@@ -590,7 +590,7 @@ ul li {
         width: 270px;
         height: 370px;
         position: relative;
-        background: #000 url(/img/man.png) no-repeat center;
+        background: #000 url(../img/man.png) no-repeat center;
         background-size: cover;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
