@@ -103,7 +103,7 @@
 	}
 	body .skills .col .disc .disc-item {
 		background-size: contain;
-		padding: 35px;
+		padding: 30px;
 	}
 	body footer .main-footer {
 		padding-bottom: 0;
@@ -140,27 +140,30 @@
 	}
 	body .project .project-foto .project-foto-item {
 		.img {
-			height: 200px;
+			height: 150px;
 		}
 		.text h4 {
 			margin-top: 5px;
-			font-size: 18px;
+			font-size: 16px;
 			margin-bottom: 5px;
 		}
 		.text p{
 			font-size: 12px;
 		}
 		.img,.text {
-			width: 130px;
+			width: 120px;
 		}
-		margin: 9px;
+		margin: 5px;
 	}
 	body .gallery .gallery-item .itemall {
 		height: 100%;
 	}
 	body .skills .col .disc .disc-item {
 		background-size: contain;
-		padding: 35px;
+		padding: 22px;
+	}
+	.skills p {
+		font-size: 14px;
 	}
 	body footer .main-footer {
 		padding-bottom: 0;
