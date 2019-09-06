@@ -11,7 +11,7 @@ gulp.task('sass', async function(){
         overrideBrowserslist: ['last 2 versions'],
         cascade: true
       }))
-      .pipe(gulp.dest('./css'))
+      .pipe(gulp.dest('./style'))
   .pipe(browserSync.stream())
    .pipe(notify(" Done! \n Your CSS files are ready, Master."))
 });
